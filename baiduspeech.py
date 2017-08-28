@@ -3,7 +3,7 @@
 import json
 # 引入Speech SDK
 from aip import AipSpeech
-from baiduspeech.baiduapisettings import BASE_VOICE_STORAGE, APP_ID, API_KEY, SECRET_KEY
+from baiduapisettings import BASE_VOICE_STORAGE, APP_ID, API_KEY, SECRET_KEY
 
 # 初始化AipSpeech对象
 aipSpeech = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
