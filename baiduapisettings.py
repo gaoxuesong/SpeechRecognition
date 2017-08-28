@@ -20,8 +20,8 @@ APP_CUID = 'YOUR_APP_CUID'
 
 # Sotrage
 if (platform.system() is 'Windows'):
-    BASE_VOICE_STORAGE = 'C:/tmp/HiSpeech/voice/'
-    BASE_SPEECH_STORAGE = 'C:/tmp/HiSpeech/speech/'
+    BASE_VOICE_STORAGE = 'C:/tmp/DeepSpeech/voice/'
+    BASE_SPEECH_STORAGE = 'C:/tmp/DeepSpeech/speech/'
 else:
-    BASE_VOICE_STORAGE = '/opt/HiSpeech/voice/'
-    BASE_SPEECH_STORAGE = '/opt/HiSpeech/speech/'
+    BASE_VOICE_STORAGE = '/opt/DeepSpeech/voice/'
+    BASE_SPEECH_STORAGE = '/opt/DeepSpeech/speech/'
